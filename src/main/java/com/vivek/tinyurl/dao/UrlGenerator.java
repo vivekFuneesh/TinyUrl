@@ -35,7 +35,7 @@ public class UrlGenerator implements ClientRequirements{
 		}
 		
 		synchronized(lock) {
-			seqUrl=sg.generate();
+			seqUrl=sg.generate(1);
 		}
 		um.setNewSequentialUrl(seqUrl);
 		return umr.save(um);
