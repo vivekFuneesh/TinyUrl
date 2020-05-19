@@ -53,7 +53,7 @@ public class SequentialGenerator {
 	 * This method must be called only once 
 	 */
 	private String getNext() {
-		return new BigDecimal(0).toPlainString();
+		return new BigDecimal(99999).toPlainString();
 	}
 	
 }
