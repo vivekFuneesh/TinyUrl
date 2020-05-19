@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Vivek's Tiny Url</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+Welcome to tinyUrl.
+
+<form action="/generateUrl" method="post">
+	<p>	Write Original Url: <input type="text" name="recievedUrl"  /></p>
+	<input type="submit" value="Save" /><br />
+</form>
+
+<form action="/findByOriginalUrl" method="post">
+	<p>	Write Original Url: <input type="text" name="originalUrl" /></p>
+	<input type="submit" value="Save" /><br />
+</form>
+
+<form action="/findBySeqUrl" method="post">
+	<p>	Write Your Sequential Url: <input type="text" name="sequentialUrl" /></p>
+	<input type="submit" value="Save" /><br />
+</form>
+
+<form action="/findByAutoUrl" method="post">
+	<p>	Write Your Automatic Url: <input type="text" name="autoUrl" /></p>
+	<input type="submit" value="Save" /><br />
+</form>
+
+</body>
+</html>
