@@ -1,4 +1,5 @@
 # TinyUrl
+ (For the time being, it's combination of mongo's random and my sequential... wait for final 1st release.)
  generator of unique tiny values
  
           						   Under GPLv3 License
