@@ -1,5 +1,5 @@
 # TinyUrl
- (For the time being, it's combination of mongo's random and my sequential... wait for final 1st release to have a best alternate of bit.ly)
+ (For the time being, it's combination of mongo's random and my sequential... wait for final 1st release to have a best  and free alternate of bit.ly)
  
  generator of unique tiny values
  
